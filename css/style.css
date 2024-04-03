@@ -1,0 +1,309 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Font Sizes */
+.fs-1em{
+    font-size: 1em;
+}
+.fs-12em{
+    font-size: 1.2em;
+}
+.fs-13em{
+    font-size: 1.3em;
+}
+.fs-14em{
+    font-size: 1.4em;
+}
+.fs-15em{
+    font-size: 1.5em;
+}
+.fs-16em{
+    font-size: 1.6em;
+}
+.fs-18em{
+    font-size: 1.8em;
+}
+.fs-2em{
+    font-size: 2em;
+}
+.fs-25em{
+    font-size: 2.5em;
+}
+.fs-3em{
+    font-size: 3em;
+}
+.fs-4em {
+    font-size: 4em;
+}
+/* Color Scheme */
+.colorP, body {
+    color: #3d5f00;
+}
+.colorS {
+    color: #fff;
+}
+.bgP {
+    background-color: #3d5f00;
+}
+.bgS {
+    background-color: #fff;
+}
+/* Opacity Options */
+.OP0 {
+    opacity: 0;
+}
+.OP01 {
+    opacity: 0.1;
+}
+.OP02 {
+    opacity: 0.2;
+}
+.OP03 {
+    opacity: 0.3;
+}
+.OP04 {
+    opacity: 0.4;
+}
+.OP05 {
+    opacity: 0.5;
+}
+.OP06 {
+    opacity: 0.6;
+}
+.OP07 {
+    opacity: 0.7;
+}
+.OP08 {
+    opacity: 0.8;
+}
+.OP09 {
+    opacity: 0.9;
+}
+.OP1 {
+    opacity: 1;
+}
+/* Margin */
+.m-10T {
+    margin: -10px auto;
+}
+.m-15T {
+    margin: -15px auto;
+}
+.m-20T {
+    margin: -20px auto;
+}
+.m-30T {
+    margin: -3px auto;
+}
+.m-40T {
+    margin: -40px auto;
+}
+.m10T {
+    margin: 10px auto;
+}
+.m15T {
+    margin: 15px auto;
+}
+.m20T {
+    margin: 20px auto;
+}
+.m30T {
+    margin: 30px auto;
+}
+.m40T {
+    margin: 40px auto;
+}
+/* Relative width */
+.w10p {
+    width: 10%;
+}
+.w10vw {
+    width: 10vw;
+}
+.w50p {
+    width: 50%;
+}
+.w50vw {
+    width: 50vw;
+}
+.w80p {
+    width: 80%;
+}
+.w80vw {
+    width: 80vw;
+}
+.w100p {
+    width: 100%;
+}
+.w100vw {
+    width: 100vw;
+}
+/* height */
+.h10p {
+    height: 10%;
+}
+.h10vh {
+    height: 10vh;
+}
+.h50p {
+    height: 50%;
+}
+.h50vh {
+    height: 50vh;
+}
+.h100p {
+    height: 100%;
+}
+.h100vh {
+    height: 100vh;
+}
+/* Flex Properties */
+.flex {
+    display: flex;
+}
+.flex-jc-c {
+    justify-content: center;
+}
+.flex-jc-sb {
+    justify-content: space-between;
+}
+.flex-align-item-c {
+    align-items: center;
+}
+/* Alignment */
+.ta-Center {
+    text-align: center;
+}
+.ac-Center {
+    align-content: center;
+}
+/* Other Codes with classes */
+header nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+header {
+    text-align: center;
+    align-content: center;
+}
+a {
+    text-decoration: none;
+}
+.banner {
+    background: url(../img/banner.png) no-repeat;
+    background-size:contain;
+    height: 105vh;
+    align-content: center;
+}
+.innerBanner {
+    height: 50%;
+    width: 40%;
+    margin-left: 40px;
+    align-content: center;
+}
+.border-bottom-25p {
+    border: #3d5f00 2px solid;
+    width: 50%;
+}
+.button {
+    padding: 10px 20px;
+    border-radius: 10px 0px 10px 0px;
+    margin-right: 20px;
+    border: none
+}
+.shadeText {
+    position: relative;
+    bottom: 55px;
+}
+.shadeTextP {
+    position: relative;
+    bottom: 40px;
+}
+.details {
+    width: 80%;
+    margin: 0px auto;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.divPadding {
+    padding: 5% 0px;
+}
+.text {
+    align-content: center;
+    width: 50%;
+    padding: 20px;
+}
+.picture {
+    width: 50%;
+    text-align: center;
+    align-content: center;
+}
+.picture img {
+    width: 50%;
+}
+.imgBorder {
+    border: #218321 3px dashed;
+}
+.titlePrice {
+    display: flex;
+    justify-content: space-between;
+}
+.adBanner {
+    background: url(../img/aidBanner.png) no-repeat;
+    background-size: contain;
+    height: 75vh;
+}
+.bannerTextRight {
+    position: relative;
+    left: 55%;
+}
+.price {
+    height: 15vh;
+    width: 20vw;
+}
+.flex-direction-column {
+    flex-direction: column;
+}
+.adBanner2 {
+    background: url(../img/aidBanner2.png) no-repeat;
+    background-size: contain;
+}
+.deal {
+    width: 300px;
+    min-width: 200px;
+    height: 30vh;
+    background-color: #218321;
+    margin: 5px 5px;
+}
+.dealPrice {
+    height: 30%;
+    align-content: center;
+    background-color: #608b14;
+}
+.dealProduct {
+    padding: 5%;
+    height: 60%;
+    background-color: #dddddd;
+}
+.dealProduct ul {
+    list-style: none;
+}
+.blog {
+    width: 300px;
+    min-width: 200px;
+}
+.imgBlog {
+    position: relative;
+    
+}
+.textContectBlog {
+    position: absolute;
+    top: 0px;
+}
+/* Pesudo Class */
+.button:hover {
+    background-color: #218321;
+}
